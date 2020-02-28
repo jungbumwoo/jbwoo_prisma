@@ -1,0 +1,33 @@
+{
+  "name": "jbwoo_prisma",
+  "version": "1.0.0",
+  "description": "Create my blog(jbwoo) backend.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jungbumwoo/jbwoo_prisma.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jungbumwoo/jbwoo_prisma/issues"
+  },
+  "homepage": "https://github.com/jungbumwoo/jbwoo_prisma#readme",
+  "dependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.6",
+    "babel-cli": "^6.26.0",
+    "babel-node": "0.0.1-security",
+    "dotenv": "^8.2.0",
+    "graphql-tools": "^4.0.7",
+    "graphql-yoga": "^1.18.3",
+    "merge-graphql-schemas": "^1.7.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
