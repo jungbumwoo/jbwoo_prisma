@@ -1,0 +1,8 @@
+type Mutation {
+    createPost(
+        title: String!,
+        subtitle: String,
+        content: String!
+        imgurl: String
+    ): Post 
+}
